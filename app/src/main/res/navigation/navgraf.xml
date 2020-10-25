@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraf"
+    app:startDestination="@id/listaDeJogoFragment">
+
+    <fragment
+        android:id="@+id/listaDeJogoFragment"
+        android:name="com.example.backlog.ui.ListaDeJogoFragment"
+        android:label="lista_de_jogos"
+        tools:layout="@layout/lista_de_jogos" >
+        <action
+            android:id="@+id/DetalharJogo"
+            app:destination="@id/jogoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jogoFragment"
+        android:name="com.example.backlog.ui.JogoFragment"
+        android:label="jogo_fragment"
+        tools:layout="@layout/jogo_fragment" />
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="com.example.backlog.Fragmento1"
+        android:label="fragment_fragmento1"
+        tools:layout="@layout/fragment_fragmento1" />
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="com.example.backlog.Fragmento2"
+        android:label="fragment_fragmento2"
+        tools:layout="@layout/fragment_fragmento2" />
+    <fragment
+        android:id="@+id/fragmento3"
+        android:name="com.example.backlog.Fragmento3"
+        android:label="fragment_fragmento3"
+        tools:layout="@layout/fragment_fragmento3" />
+</navigation>
