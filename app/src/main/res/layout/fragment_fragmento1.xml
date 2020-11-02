@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="99dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cunt"
+        android:text="Olá"
         android:textSize="36sp" />
 </FrameLayout>

@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+    android:background="@color/colorPrimary"
+    android:theme="@style/AppTheme"
+    tools:context=".LoginActivity">
 
 
     <EditText
@@ -13,6 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
+        android:background="@color/colorPrimary"
         android:ems="10"
         android:hint="Usuário"
         android:inputType="textPersonName"
@@ -36,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
         android:ems="10"
         android:hint="Senha"
         android:inputType="textPersonName"

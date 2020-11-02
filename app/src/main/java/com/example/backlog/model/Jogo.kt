@@ -4,18 +4,18 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 
-@Entity(tableName = "Jogos")
+
 data class Jogo(
 
-    @PrimaryKey(autoGenerate = true)
-    var id : Int,
+    var docId : String,
     var nome : String,
     var ano : String,
-    var plataforma : String
+    var plataforma : String,
+    var foto : String
 
 )
 {
-    constructor() : this(0, String(), String (), String())
+    constructor() : this(String(), String(), String (), String(), String())
 }
 
 

@@ -1,5 +1,5 @@
 package com.example.backlog.db
-
+/*
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
@@ -24,4 +24,4 @@ interface JogoDAO {
 
     @Query("DELETE FROM Jogos")
     suspend fun removerTodosJogos()
-}
+}*/
